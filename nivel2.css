@@ -1,0 +1,316 @@
+body{
+    background-color: white;
+}
+
+
+
+.container1{
+    background-color: rgb(19, 2, 18);
+    display:flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+    padding: 30px;
+}
+
+.div1-1{
+    margin-bottom: 15px;
+    background-color: rgb(203, 240, 78);
+    width: 100%;
+}
+
+.linea1 {
+    background-color: rgb(103, 90, 220);
+    height:30px;
+    margin: 30px;
+}
+
+.linea1-1 {
+    background-color: rgb(103, 90, 220);
+    height:30px;
+    margin: 30px;
+}
+
+.linea1-2 {
+    background-color: rgb(103, 90, 220);
+    height:30px;
+    margin: 30px;
+}
+
+.div1-2{
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgb(240, 78, 183);
+    display: flex;
+    align-items: center;
+    
+}
+
+.linea2 {
+    margin:30px;
+    background-color: rgb(162, 83, 235);
+    height:30px;
+    width: 100%;
+}
+
+
+.container2{
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+    align-items: top;
+}
+.section1{
+    background-color: rgb(117, 211, 228);
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.aside{
+    margin-top: 15px;
+    background-color: rgb(93, 76, 178);
+    width: 100%;
+    margin-left: 0px;
+}
+.section{
+    background-color: rgb(117, 211, 228); 
+}
+
+.linea11 {
+    margin: 30px;
+    background-color: rgb(246, 138, 138);
+    height:30px;
+}
+.linea22 {
+    margin: 30px;
+    background-color: rgb(246, 138, 138);
+    height:30px;
+    
+}
+.linea33 {
+    margin: 30px;
+    background-color: rgb(246, 138, 138);
+    height:30px;
+     
+}
+.linea44 {
+    margin: 30px;
+    background-color: rgb(246, 138, 138);
+    height:30px;
+     
+}
+.linea55 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(103, 90, 220);
+    height:30px;
+    margin-right: 30px;
+    
+}
+
+.linea66 {
+    margin:30px;
+    background-color: rgb(246, 138, 138);
+    height:30px;
+    
+}
+.linea77 {
+    margin:30px;
+    background-color: rgb(246, 138, 138);
+    height:30px;   
+}
+
+.container3{
+    margin: 30px;
+    background-color: rgb(19, 2, 18);
+    display: flex;
+    justify-content: flex-start;
+}
+.linea3-1 {
+
+    margin: 30px;
+    background-color: rgb(233, 138, 246);
+    height:30px;   
+    width: 100%;
+}
+
+
+
+
+
+
+  @media only screen and (min-width: 400px) {
+    /* For tablet: */
+        .container2{
+            background-color: rgb(19, 2, 18);
+            display:flex;
+            flex-direction: column;
+            margin: 30px;
+            padding: 30px;
+            align-items: top;
+        }
+        .section1{
+            background-color: rgb(117, 211, 228);
+            width: 100%;
+            margin-bottom: 15px;
+        
+        }
+        .aside{
+            margin-top: 15px;
+            background-color: rgb(93, 76, 178);
+            width: 100%;
+            margin-left: 0px;
+        }
+        .section{
+            background-color: rgb(117, 211, 228);
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 0.5px;
+            
+        }
+        .container1{
+            background-color: rgb(19, 2, 18);
+            display:flex;
+            flex-direction: column;
+            margin: 30px;
+            align-items: center;
+            padding: 30px;
+        }
+        
+        .div1-1{
+            margin-bottom: 15px;
+            background-color: rgb(203, 240, 78);
+            display: flex;
+            align-items: center;
+            width: 100%;
+            flex-direction: row;
+        }
+        
+        .linea1 {
+            margin:30px;
+            background-color: rgb(103, 90, 220);
+            height:30px;
+            width: 60%;
+        }
+        
+        .linea1-1 {
+            margin:30px;
+            background-color: rgb(103, 90, 220);
+            height:30px;
+            width: 20%;
+        }
+        
+        .linea1-2 {
+            margin:30px;
+            background-color: rgb(103, 90, 220);
+            height:30px;
+            width: 20%;
+        }
+        
+        .div1-2{
+            width: 100%;
+            margin-top: 15px;
+            background-color: rgb(240, 78, 183);
+            display: flex;
+            align-items: center;
+            
+        }
+        
+        .linea2 {
+            margin:30px;
+            background-color: rgb(162, 83, 235);
+            height:30px;
+            width: 100%;
+        }
+        
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .container2{
+        background-color: rgb(19, 2, 18);
+        display:flex;
+        flex-direction: row;
+        margin: 30px;
+        padding: 30px;
+        align-items: top;
+    }
+    .section1{
+        margin-right: 15px;
+        background-color: rgb(117, 211, 228);
+        width: 80%;
+        margin-bottom: 0px;
+    
+    }
+    .aside{ 
+        margin-left: 15px;
+        background-color: rgb(93, 76, 178);
+        width: 30%;
+        margin-top: 0px;
+    }
+    .section{
+        background-color: rgb(117, 211, 228);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 0.5px;
+        
+    }
+    .container1{
+        background-color: rgb(19, 2, 18);
+        display:flex;
+        flex-direction: column;
+        margin: 30px;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    .div1-1{
+        margin-bottom: 15px;
+        background-color: rgb(203, 240, 78);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .linea1 {
+        margin:30px;
+        background-color: rgb(103, 90, 220);
+        height:30px;
+        width: 60%;
+    }
+    
+    .linea1-1 {
+        margin:30px;
+        background-color: rgb(103, 90, 220);
+        height:30px;
+        width: 20%;
+    }
+    
+    .linea1-2 {
+        margin:30px;
+        background-color: rgb(103, 90, 220);
+        height:30px;
+        width: 20%;
+    }
+    
+    .div1-2{
+        width: 100%;
+        margin-top: 15px;
+        background-color: rgb(240, 78, 183);
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .linea2 {
+        margin:30px;
+        background-color: rgb(162, 83, 235);
+        height:30px;
+        width: 100%;
+    }
+    
+  }
+
+  
